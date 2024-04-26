@@ -11,7 +11,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="/assets/style.css" />
   </head>
   <!-- TODO: -->
   <body>
@@ -37,16 +38,16 @@
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <a class="nav-link active" href="#"
-                  >Home
+                  >Noticias
                   <span class="visually-hidden">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Calendario</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
@@ -85,77 +86,85 @@
     </header>
 
     <main>
-      <div class="row mt-5 rd texgy-5 gap-5 ms-auto abs-center">
-        <div class="cat-bg-dark">
-          <img src="/assets/img/card-img.jpg" class="card-img" alt="..." />
-          <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <p class="card-text"><small>Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <hr />
-        <div class="card mb-3 p-2 g-0" style="max-width: 625px">
-          <div class="row g-0">
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <p class="card-text">
-                  <small class="text-body-secondary"
-                    >Last updated 3 mins ago</small
-                  >
-                </p>
+        <div class="container">
+            <div class="row mt-5 gy-5 gap-5 ms-auto">
+                <div class="cat-bg-dark">
+                  <img src="/assets/img/card-img.jpg" class="card-img" alt="..." />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                    </p>
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <hr />
+                <div class="card mb-3 p-2 g-0" style="max-width: 625px">
+                  <div class="row g-0">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a natural
+                          lead-in to additional content. This content is a little bit
+                          longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img
+                        src="/assets/img/noticia-1.jpeg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 p-2 g-0 gy-0" style="max-width: 625px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/assets/img/card-content-2.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a natural
+                          lead-in to additional content. This content is a little bit
+                          longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <img
-                src="/assets/img/card-content-1.jpg"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-          </div>
         </div>
-        <div class="card mb-3 p-2 g-0 gy-0" style="max-width: 625px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="/assets/img/card-content-2.jpg"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <p class="card-text">
-                  <small class="text-body-secondary"
-                    >Last updated 3 mins ago</small
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </main>
 
     <footer></footer>
 
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
