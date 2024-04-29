@@ -4,6 +4,7 @@ body {
     background: linear-gradient(to right, #ca7b5e, #758cf0);
     min-height: 100vh;
     padding-top: 5vh;
+    font-family: 'Monserrat', sans-serif;
 }
 .img-fluid {
     max-width: 100%;
