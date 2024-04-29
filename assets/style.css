@@ -1,9 +1,9 @@
 body {
-  background: #e8cbc0;
-  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
-  background: linear-gradient(to right, #ed5219, #3858e5);
-  padding-top: 10vh;
-  min-height: 100vh;
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e45826, #3858e5);
+    padding-top: 5vh;
+    font-family: 'Monserrat', sans-serif;
 }
 
 .img-fluid {
@@ -11,18 +11,17 @@ body {
   height: 100%;
   object-fit: cover;
 }
-
-.navbar .nav-link {
-  color: rgb(255, 255, 255);
+.custom-card {
+    background-color: rgba(29,66,138,255);
+    }
+.custom-card-2{
+    background-color: #c8102e;
 }
-.card-news {
-  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
-  background: linear-gradient(to right, #ca7b5e, #758cf0);
+.card-img-east{
+    width: 300px; 
+    height: 200px; 
 }
-.card {
-  background: var(--bs-none) !important;
-}
-a {
-  text-decoration: none;
-  color: black;
+.card-img-west{
+    width: 300px; 
+    height: 200px; 
 }
