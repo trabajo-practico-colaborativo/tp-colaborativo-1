@@ -1,17 +1,28 @@
 body {
-    background: #e8cbc0;
-    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
-    background: linear-gradient(to right, #ca7b5e, #758cf0);
-    padding-top: 10vh;
-    min-height: 100vh;
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e45826, #3858e5);
+  padding-top: 10vh;
+  min-height: 100vh;
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.navbar .nav-link{
-    color: rgb(255, 255, 255);
+.navbar .nav-link {
+  color: rgb(255, 255, 255);
+}
+.card-news {
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #ca7b5e, #758cf0);
+}
+.card {
+  background: var(--bs-none) !important;
+}
+a {
+  text-decoration: none;
+  color: black;
 }

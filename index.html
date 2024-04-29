@@ -13,6 +13,10 @@
     />
 
     <link rel="stylesheet" href="/assets/style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
   </head>
   <!-- TODO: -->
   <body>
@@ -40,7 +44,7 @@
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#"
-                  >Noticias
+                  >NEWS
                   <span class="visually-hidden">(current)</span>
                 </a>
                 <!-- </li>
@@ -63,7 +67,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  >Dropdown</a
+                  >TEAMS</a
                 >
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Action</a>
@@ -87,7 +91,7 @@
       <div class="container">
         <br />
         <div class="card mb-3">
-          <div
+          <div  
             id="SlidesOnly"
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
@@ -208,22 +212,20 @@
         <hr class="mt-5 mb-5" />
         <div class="container">
           <div class="card mb-3">
-            <div class="card">
+            <div class="card-news">
               <div class="card-body">
                 <h2 class="card-title fw-bold">NEWS</h2>
                 <p class="card-text fw-bold">
-                  news page provides the latest news, updates, and information about the National Basketball Association longer.
+                  the latest news, updates, and information about the National Basketball Association
                 </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
+                <hr>
               </div>
               <div class="row m-2 gap-5">
                 <div class="card mb-3 p-2 g-0" style="max-width: 600px">
                   <div class="row g-0">
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">NBA Awards 2023-2024: Finalists for MVP, Rookie of the Year, Defender, Sixth Man and more</h5>
+                        <h5 class="card-title"><a href="https://www.sportingnews.com/ar/nba/news/premios-finalistas-ganadores-mvp-rookie-defensor-sexto-hombre/56fed6f388d5d725d514f942" target="_blank">NBA Awards 2023-2024: Finalists for MVP, Rookie of the Year, Defender, Sixth Man and more</a></h5>
                         <p class="card-text">
                           This is a wider card with supporting text below as a
                           natural lead-in to additional content. This content is
@@ -256,7 +258,7 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Lakers vs. Nuggets, scores and stats: Los Angeles won and managed to avoid elimination</h5>
+                        <h5 class="card-title"><a href="https://www.sportingnews.com/ar/nba/news/los-angeles-lakers-denver-nuggets-vivo-directo-resultado-partido-4-playoffs/79f52e2ed25a2fcacccfd4ce" target="_blank">Lakers vs. Nuggets, scores and stats: Los Angeles won and managed to avoid elimination</a></h5>
                         <p class="card-text">
                           This is a wider card with supporting text below as a
                           natural lead-in to additional content. This content is
@@ -275,7 +277,7 @@
                   <div class="row g-0">
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title ms-auto">Mavericks vs. Clippers, scores and stats: Dallas controls docile Los Angeles to take Playoff series lead</h5>
+                        <h5 class="card-title ms-auto"><a href="https://www.sportingnews.com/ar/nba/news/dallas-mavericks-la-clippers-vivo-directo-resultado-estadisticas-playoffs/aaacabdb53c7cb1cbaae1bb3" target="_blank">Mavericks vs. Clippers, scores and stats: Dallas controls docile Los Angeles to take Playoff series lead</a></h5>
                         <p class="card-text">
                           This is a wider card with supporting text below as a
                           natural lead-in to additional content. This content is
@@ -308,7 +310,7 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Playoffs NBA 2024: Resultados, series, calendario de partidos y todos los detalles</h5>
+                        <h5 class="card-title"><a href="https://www.sportingnews.com/ar/nba/news/playoffs-2024-resultados-equipos-clasificados-series/c51a1742909440c4765697cc" target="_blank">layoffs NBA 2024: Resultados, series, calendario de partidos y todos los detalles</a>P</h5>
                         <p class="card-text">
                           This is a wider card with supporting text below as a
                           natural lead-in to additional content. This content is
@@ -330,7 +332,43 @@
       </div>
     </main>
 
-    <footer></footer>
+    <footer class="bg-body-dark text-center">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3 fw-bold" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 NBA
+        </div>
+        <!-- Copyright -->
+      </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
