@@ -18,13 +18,15 @@
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-light fixed-top"
+        class="navbar navbar-expand-lg bg-dark fixed-top"
         data-bs-theme="light"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"
+            ><img src="https://cdn.nba.com/logos/leagues/logo-nba.svg" alt=""
+          /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler bg-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarColor03"
@@ -37,20 +39,22 @@
           <div class="collapse navbar-collapse" id="navbarColor03">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#"
+                <a class="nav-link" href="#"
                   >Noticias
                   <span class="visually-hidden">(current)</span>
                 </a>
-              </li>
+                <!-- </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Calendario</a>
-              </li>
-              <!-- <li class="nav-item">
+              </li> -->
+                <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li> -->
-              <li class="nav-item">
+                <!-- <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
+              </li> -->
               </li>
+
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -70,47 +74,160 @@
                 </div>
               </li>
             </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-sm-2"
-                type="search"
-                placeholder="Search"
-              />
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">
-                Search
-              </button>
-            </form>
+            <img
+              src="https://static-nw-production.sportingnews.com/00abfe48a5d7bf911293dc68a6e0dd61ce10f63d-static/assets/images/nba-logos/nba-watch-league-pass.svg"
+              alt=""
+            />
           </div>
         </div>
       </nav>
     </header>
 
     <main>
-        <div class="container">
-          <br>
-          <div class="card mb-3 mt-5 py-3">
-            <img src="/assets/img/nba-logo.png" class="card-img-top" alt="Wild Landscape"/>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.
-              </p>
-              <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
+      <div class="container">
+        <br />
+        <div class="card mb-3">
+          <div
+            id="SlidesOnly"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#SlidesOnly"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#SlidesOnly"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#SlidesOnly"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item" data-bs-interval="5000">
+                <img
+                  src="/assets/img/nba-logo.png"
+                  class="d-block w-100 c-img"
+                  alt="..."
+                />
+                <div class="carousel-caption top-0 mt-5">
+                  <h1 class="display-2 fw-bold">
+                    
+                  </h1>
+                  <!-- <a
+                    href="/LandingPage/servicios/servicios.html"
+                    target="_blank"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-outline-light gradient-custom .shadow-custom fs-4 fw-bold px-4 py-2 mt-5"
+                    >
+                      VER
+                    </button>
+                  </a> -->
+                </div>
+              </div>
+              <div class="carousel-item c-item" data-bs-interval="4500">
+                <img
+                  src="/assets/img/western-carousel.png"
+                  class="d-block w-100 c-img"
+                  alt="..."
+                />
+                <div class="carousel-caption top-0 mt-5">
+                  <h1 class="display-2 fw-bold">
+                    
+                  </h1>
+                  <!-- <a href="/LandingPage/about-us/about-us.html" target="_blank">
+                    <button
+                      type="button"
+                      class="btn btn-outline-light gradient-custom fs-4 fw-bold px-4 py-2 mt-5"
+                    >
+                      MÁS INFO
+                    </button>
+                  </a> -->
+                </div>
+              </div>
+              <div class="carousel-item c-item" data-bs-interval="4000">
+                <img
+                  src="/assets/img/eastern-carousel.png"
+                  class="d-block w-100 c-img"
+                  alt="..."
+                />
+                <div class="carousel-caption top-0 mt-5">
+                  <!-- <h1 class="display-2 fw-bold">
+                    ¿Necesitas ayuda? Contáctanos!
+                  </h1> -->
+                  <!-- <a href="/LandingPage/contact/contacto.html" target="_blank">
+                    <button
+                      type="button"
+                      class="btn btn-outline-light gradient-custom fs-4 fw-bold px-4 py-2 mt-5"
+                    >
+                      CONTACTAR
+                    </button>
+                  </a> -->
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#SlidesOnly"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#SlidesOnly"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-                <hr />
-                <div class="card mb-3 p-2 g-0" style="max-width: 625px">
+        </div>
+        <hr class="mt-5 mb-5" />
+        <div class="container">
+          <div class="card mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title fw-bold">NEWS</h2>
+                <p class="card-text fw-bold">
+                  news page provides the latest news, updates, and information about the National Basketball Association longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+              <div class="row m-2 gap-5">
+                <div class="card mb-3 p-2 g-0" style="max-width: 600px">
                   <div class="row g-0">
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">NBA Awards 2023-2024: Finalists for MVP, Rookie of the Year, Defender, Sixth Man and more</h5>
                         <p class="card-text">
-                          This is a wider card with supporting text below as a natural
-                          lead-in to additional content. This content is a little bit
-                          longer.
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
                         </p>
                         <p class="card-text">
                           <small class="text-body-secondary"
@@ -128,7 +245,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card mb-3 p-2 g-0 gy-0" style="max-width: 625px">
+                <div class="card mb-3 p-2 g-0 gy-0" style="max-width: 600px">
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
@@ -139,11 +256,11 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Lakers vs. Nuggets, scores and stats: Los Angeles won and managed to avoid elimination</h5>
                         <p class="card-text">
-                          This is a wider card with supporting text below as a natural
-                          lead-in to additional content. This content is a little bit
-                          longer.
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
                         </p>
                         <p class="card-text">
                           <small class="text-body-secondary"
@@ -154,8 +271,23 @@
                     </div>
                   </div>
                 </div>
-                <div class="card mb-3 p-2 g-0 gy-0" style="max-width: 625px">
+                <div class="card mb-3 p-2 g-0 gy-0" style="max-width: 600px">
                   <div class="row g-0">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title ms-auto">Mavericks vs. Clippers, scores and stats: Dallas controls docile Los Angeles to take Playoff series lead</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
                     <div class="col-md-4">
                       <img
                         src="/assets/img/noticia-3.png"
@@ -163,39 +295,24 @@
                         alt="..."
                       />
                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          This is a wider card with supporting text below as a natural
-                          lead-in to additional content. This content is a little bit
-                          longer.
-                        </p>
-                        <p class="card-text">
-                          <small class="text-body-secondary"
-                            >Last updated 3 mins ago</small
-                          >
-                        </p>
-                      </div>
-                    </div>
                   </div>
                 </div>
-                <div class="card mb-3 p-2 g-0 gy-0" style="max-width: 625px">
+                <div class="card mb-3 p-2 g-0 gy-0" style="max-width: 600px">
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src="/assets/img/noticia-4.jpg"
+                        src="/assets/img/NBA-Playoffs.jpg"
                         class="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Playoffs NBA 2024: Resultados, series, calendario de partidos y todos los detalles</h5>
                         <p class="card-text">
-                          This is a wider card with supporting text below as a natural
-                          lead-in to additional content. This content is a little bit
-                          longer.
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
                         </p>
                         <p class="card-text">
                           <small class="text-body-secondary"
@@ -207,17 +324,21 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
         </div>
-      
+      </div>
     </main>
 
     <footer></footer>
 
     <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
